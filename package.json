@@ -1,0 +1,51 @@
+{
+    "name": "XMPP-Facebook-Chat",
+    "description": "node.js facebook chat client",
+    "version": "0.0.1",
+    "author": "papajuanito",
+    "main": "index.html",
+
+    "window": {
+        "toolbar": true,
+        "frame": true,
+        "width": 440,
+        "height": 620,
+        "min_width": 320,
+        "position": "center"
+    },
+
+    "dependencies": {
+        "nodewebkit": "~0.8.4-2",
+        "node-xmpp-client": "~0.2.3"
+    },
+
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-requirejs": "~0.4.1",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-imagemin": "~0.4.0",
+        "grunt-shell": "~0.6.1",
+        "grunt-bower-requirejs": "~0.8.0",
+        "grunt-contrib-coffee": "~0.7.0",
+        "grunt-contrib-sass": "~0.6.0"
+    },
+
+    "scripts": {
+        "start": "node node_modules/.bin/nodewebkit"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/papajuanito/node-webkit-facebook-chat"
+    },
+
+    "keywords": [
+        "node",
+        "facebook",
+        "chat",
+        "webkit"
+    ]
+}
