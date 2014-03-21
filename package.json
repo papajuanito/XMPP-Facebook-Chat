@@ -6,6 +6,7 @@
     "main": "index.html",
 
     "window": {
+        "title": "Facebook Chat",
         "toolbar": true,
         "frame": true,
         "width": 440,
@@ -15,11 +16,15 @@
     },
 
     "dependencies": {
-        "nodewebkit": "~0.8.4-2"
     },
 
-    "scripts": {
-        "start": "nodewebkit"
+    "devDependencies": {
+        "grunt-contrib-copy": "0.5.0",
+        "grunt-contrib-compass": "0.7.2",
+        "grunt-contrib-sass": "0.7.3",
+        "grunt-contrib-watch": "0.6.0",
+        "grunt": "0.4.4",
+        "grunt-node-webkit-builder": "0.1.17"
     },
 
     "repository": {
